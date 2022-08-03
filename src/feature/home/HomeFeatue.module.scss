@@ -1,0 +1,22 @@
+.homefeature {
+    background-image: url('/night_hill.gif');
+    min-height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 2em;
+
+    .imagee {
+        position: absolute;
+        transition: 0.2s transform;
+        top: 0;
+        z-index: 999;
+    }
+
+    .spacestation {
+        position: absolute;
+        transition: 0.10s transform;
+        top: 0;
+        top: 26px;
+        right: 100px;
+    }
+}
